@@ -26,36 +26,32 @@
 | <ul><li>- [x] </li></ul> | 7주차 |         DFS와 BFS          |
 | <ul><li>- [x] </li></ul> | 8주차 |    Set, Map, Dictionary    |
 
-<br/
->
-## 1. 브랜치 운영 방식
+## 진행 방식
 
-- week 폴더
-- ‘week?/week?-이름’ 로 branch 맡아서 코드 작성
+### 1. 브랜치 운영 방식
+
+1. Winter-Algorithm-Study 레포지터리를 clone 후 본인의 github username으로 branch 생성
+2. 주차별 폴더(week 폴더)에 개인 스터디 파일 생성, 개인 스터디 파일은 자율적으로 생성하여 사용
+3. 커밋 메시지 예시) [커밋컨벤]Week1-(본인한글이름)
+4. 마지막으로 main branch에 Pull Request 해주시면 됩니다. PR 명은 [이름]Week1-Winter-Algorithm-Study
 
 → main이 합치는 공간
 
-## 2. 커밋 컨벤션
+### 2. 커밋 컨벤션
 
-- 커밋 메시지 앞에 [FEAT] [FIX]..  붙이기
-    - `FEAT` : 새로운 기능 추가  ex. [FEAT] design_create
-    - `FIX` : 버그 수정
-    - `UPDATE` : 코드 수정
-    - `DOCS` : 문서 수정
-    - `DESIGN` : CSS 등 사용자 UI 디자인 변경
-    - `STYLE` : 코드 포맷팅, 세미콜론 누락, 코드 변경이 없는 경우
-    - `REFACTOR` : 코드 리펙토링
-    
-    - `etc` : 파일명, 폴더명 수정 or 파일, 폴더 삭제 or 디렉토리 구조 변경
+- 커밋 메시지 : `week?-이름`
+
+- 커밋 메시지 앞에 [DOCS] [UPDATE].. 붙이기
+
+  - `ADD` : 문제 풀이 추가 ex. [ADD] week1-yejun
+  - `UPDATE` : 코드 수정
+  - `DOCS` : 문서 수정
+  - `REFACTOR` : 코드 리펙토링
+
+  - `etc` : 파일명, 폴더명 수정 or 파일, 폴더 삭제 or 디렉토리 구조 변경
+
 - 커밋 단위:
-    - 세부 기능 기준
-    - 기능 우선 순위 정리 파일 참고
+  - 문제 1개 풀이 시
+  - 스터디 학습 내용 자율 정리
 
 [깃(Git) 커밋 가이드](https://tech.10000lab.xyz/git/git-commit-discipline.html)
-
-## Github
-
-1. Winter-Algorithm-Study 레포지터리를 clone 후 본인의 github username으로 branch 생성
-2. 주차별 폴더에 개인 스터디 파일 생성, 개인 스터디 파일은 자율적으로 생성하여 사용
-3. 커밋 메시지 예시) [커밋컨벤션]Week1-(본인한글이름) 
-4. 마지막으로 main branch에 Pull Request 해주시면 됩니다. PR 명은 [이름]Week1-Winter-Algorithm-Study
