@@ -55,4 +55,5 @@
 
 1. Winter-Algorithm-Study 레포지터리를 clone 후 본인의 github username으로 branch 생성
 2. 주차별 폴더에 개인 스터디 파일 생성, 개인 스터디 파일은 자율적으로 생성하여 사용
-3. 마지막으로 main branch에 Pull Request 해주시면 됩니다. PR 명은 [이름]Week1-Winter-Algorithm-Study
+3. 커밋 메시지 예시) [커밋컨벤선]Week1-(본인한글이름) 
+4. 마지막으로 main branch에 Pull Request 해주시면 됩니다. PR 명은 [이름]Week1-Winter-Algorithm-Study
