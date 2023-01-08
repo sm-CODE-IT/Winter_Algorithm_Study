@@ -2,25 +2,14 @@
 
 [22-23 Code It] 겨울 방학 알고리즘을 위한 저장소
 
-### 노션
+## 👩🏻‍💻 스터디원
 
-[Code It 노션 페이지 Algorithm](https://www.notion.so/709cd20c666e49fea24ded39186937dc)
-
-### 📆 커리큘럼
-
-|       진척도 확인        | 주차  |          알고리즘          |
-| :----------------------: | :---: | :------------------------: |
-| <ul><li>- [x] </li></ul> | 1주차 |   브루트 포스와 백트래킹   |
-| <ul><li>- [x] </li></ul> | 2주차 |            정렬            |
-| <ul><li>- [x] </li></ul> | 3주차 |            스택            |
-| <ul><li>- [x] </li></ul> | 4주차 |          큐와 덱           |
-| <ul><li>- [x] </li></ul> | 5주차 |    다이나믹 프로그래밍     |
-| <ul><li>- [x] </li></ul> | 6주차 | 이분탐색과 파라메트릭 탐색 |
-| <ul><li>- [x] </li></ul> | 7주차 |         DFS와 BFS          |
-| <ul><li>- [x] </li></ul> | 8주차 |    Set, Map, Dictionary    |
+- 김민희(Python)
+- 김원희(C++)
+- 남유민(C++)
 
 <details>
-<summary> 👩🏻‍💻 박예준 (Java) </summary>
+<summary> 박예준(Java) </summary>
 <div>
 
 #### 정렬
@@ -124,9 +113,29 @@
 
 #### 그래프2(다익스트라(Dijkstra), 플로이드(Floyd-Warshall), SPFA(Shortest Path Faster))
 </div>
-</details>
+</details>- 손수경(Python)
+- 이예나(Java)
+- 최민영(C++)
 
-<br/><br/>
+## 🖐️ 스터디 소개
+
+>>>>>>> main
+### 노션
+
+[Code It 노션 페이지 Algorithm](https://www.notion.so/709cd20c666e49fea24ded39186937dc)
+
+### 📆 커리큘럼(예시)
+
+|       진척도 확인        | 주차  |          알고리즘          |
+| :----------------------: | :---: | :------------------------: |
+| <ul><li>- [x] </li></ul> | 1주차 |   브루트 포스와 백트래킹   |
+| <ul><li>- [x] </li></ul> | 2주차 |            정렬            |
+| <ul><li>- [x] </li></ul> | 3주차 |            스택            |
+| <ul><li>- [x] </li></ul> | 4주차 |          큐와 덱           |
+| <ul><li>- [x] </li></ul> | 5주차 |    다이나믹 프로그래밍     |
+| <ul><li>- [x] </li></ul> | 6주차 | 이분탐색과 파라메트릭 탐색 |
+| <ul><li>- [x] </li></ul> | 7주차 |         DFS와 BFS          |
+| <ul><li>- [x] </li></ul> | 8주차 |    Set, Map, Dictionary    |
 
 
 ## 진행 방식
@@ -158,3 +167,4 @@
   - 스터디 학습 내용 자율 정리
 
 [깃(Git) 커밋 가이드](https://tech.10000lab.xyz/git/git-commit-discipline.html)
+
