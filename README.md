@@ -121,7 +121,6 @@
 
 ## 🖐️ 스터디 소개
 
->>>>>>> main
 ### 노션
 
 [Code It 노션 페이지 Algorithm](https://www.notion.so/709cd20c666e49fea24ded39186937dc)
