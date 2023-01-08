@@ -43,3 +43,5 @@ print(divNum)
 for i in nums:
     if isPrime(i):
         print(i, end=' ')
+
+# * temp
