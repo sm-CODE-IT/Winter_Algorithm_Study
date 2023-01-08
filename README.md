@@ -113,7 +113,9 @@
 
 #### 그래프2(다익스트라(Dijkstra), 플로이드(Floyd-Warshall), SPFA(Shortest Path Faster))
 </div>
-</details>- 손수경(Python)
+</details>
+
+- 손수경(Python)
 - 이예나(Java)
 - 최민영(C++)
 
