@@ -2,8 +2,6 @@
 
 [22-23 Code It] 겨울 방학 알고리즘을 위한 저장소
 
-## 👩🏻‍💻 박예준 (Java)
-
 ### 노션
 
 [Code It 노션 페이지 Algorithm](https://www.notion.so/709cd20c666e49fea24ded39186937dc)
@@ -20,6 +18,10 @@
 | <ul><li>- [x] </li></ul> | 6주차 | 이분탐색과 파라메트릭 탐색 |
 | <ul><li>- [x] </li></ul> | 7주차 |         DFS와 BFS          |
 | <ul><li>- [x] </li></ul> | 8주차 |    Set, Map, Dictionary    |
+
+<details>
+<summary> 👩🏻‍💻 박예준 (Java) </summary>
+<div>
 
 #### 정렬
 
@@ -121,6 +123,8 @@
 - Bellman-Ford 알고리즘
 
 #### 그래프2(다익스트라(Dijkstra), 플로이드(Floyd-Warshall), SPFA(Shortest Path Faster))
+</div>
+</details>
 
 <br/><br/>
 
