@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// 백준은 endl대신 \n을 쓰자.
+// 백준은 endl대신 \n을 쓰자!
 void recursion(int n, int m) {
 	for (int i = 0; i < 4*(m-n); i++) cout << "_";
 	cout << "\"재귀함수가 뭔가요? \"" << endl;
