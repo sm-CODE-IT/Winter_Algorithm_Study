@@ -1,5 +1,6 @@
 ### 문제 풀이 정리
 17425 : https://velog.io/@dev_tmb/백준-17425번-약수의-합-JAVA
+2504 (미완) : https://velog.io/@dev_tmb/%EB%B0%B1%EC%A4%80-2504%EB%B2%88-%EA%B4%84%ED%98%B8%EC%9D%98-%EA%B0%92-JAVA 
 
 
 ### 학습 정리한 내용
