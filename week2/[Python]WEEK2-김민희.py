@@ -38,6 +38,8 @@ for i in range(n):
 
 
 
+
+
 #####숫자만 추출
 #약수 추출
 def find(x):
@@ -95,6 +97,10 @@ for x in range(1,res+1): #res까지 돌아야 한다,숫자화 시키는 방법
 print(cnt)
  
 
+
+
+
+
  #####카드 역배치
 li=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
 #리스트를 거꾸로 하는 함수
@@ -139,6 +145,10 @@ a.pop(0) #괄호 안에 들어가는 값은 인덱스 개념으로 접근
 
 for x in a:
     print(x,end=" ") #옆으로 출력
+
+
+
+
 
 
 
@@ -214,6 +224,10 @@ for x in c:
 
 
 
+
+
+
+
 #####수들의 합
 li=list(map(int,input().split()))
 N=int(input())
@@ -234,6 +248,8 @@ for i in range(M):
 print(answer)
 
 #강의 풀이
+
+
 
 
 
