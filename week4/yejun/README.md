@@ -1,3 +1,7 @@
+### 문제 풀이 정리
+11866 : https://velog.io/@dev_tmb/%EB%B0%B1%EC%A4%80-11866%EB%B2%88-%EC%9A%94%EC%84%B8%ED%91%B8%EC%8A%A4-%EB%AC%B8%EC%A0%9C-0-JAVA
+
+
 ### 강의 수강 내용
 # 제3-1장: 상속(Inheritance)
 ## 🔗 개념
