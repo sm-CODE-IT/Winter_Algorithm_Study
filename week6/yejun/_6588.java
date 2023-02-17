@@ -3,7 +3,6 @@ package week6.yejun;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 
 public class _6588 {
 
@@ -27,19 +26,15 @@ public class _6588 {
         int n = Integer.parseInt(br.readLine());
         while (n != 0) {
 
-            int a = 0;
-            int b = 0;
-            for (int i=3; i<n; i++) {
-                if (i % 2 != 0 && primes[i] != 0) {
-                    a = i;
-                    if (n-a % 2 != 0 && primes[n-a] != 0 && n-a > a) {
-                        b = n - a;
-                        break;
-                    }
+            boolean isPrime = false;
+            for (int i=2; i<=n/2; i++) {
+                if (primes[i] != 0 && primes[n-i] != 0) {
+                    sb.append(n + " = " + String.valueOf(i) + " + " + String.valueOf(n-i)).append("\n");
+                    isPrime = true;
+                    break;
                 }
             }
-            if (b == 0 || a == b) sb.append("Goldbach's conjecture is wrong.").append("\n");
-            else sb.append(n + " = " + a + " + " + b).append("\n");
+            if (!isPrime) sb.append("Goldbach's conjecture is wrong.").append("\n");
 
             n = Integer.parseInt(br.readLine());
 
