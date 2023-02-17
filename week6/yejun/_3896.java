@@ -10,7 +10,7 @@ public class _3896 {
         StringBuilder sb = new StringBuilder();
 
         // 소수 배열 구성
-        int max = 1000000;
+        int max = 1299709;
         int[] primes = new int[max+1];
         for (int i=2; i<=max; i++) primes[i] = i;
 
@@ -25,14 +25,14 @@ public class _3896 {
         int T = Integer.parseInt(br.readLine());
         for (int i=0; i<T; i++) {
             int k = Integer.parseInt(br.readLine());
-            int start = 0;
+            int start = -1;
             for (int j=k; j>=2; j--) {
                 if (primes[j] != 0) {
                     start = j;
                     break;
                 }
             }
-            int end = 0;
+            int end = -1;
             for (int j=start+1; j<=max; j++) {
                 if (primes[j] != 0) {
                     end = j;
@@ -41,7 +41,7 @@ public class _3896 {
             }
 
             if (primes[k] != 0) sb.append(0).append("\n");
-            else if (start != 0 && end != 0) sb.append(end-start).append("\n");
+            else if (start < k && end > k) sb.append(end-start).append("\n");
             else sb.append(0).append("\n");
         }
 
@@ -49,4 +49,3 @@ public class _3896 {
 
     }
 }
-
