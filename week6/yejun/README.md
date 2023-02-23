@@ -1,4 +1,6 @@
 ### 학습 정리한 내용
+<br/>
+<br/>
 
 # 📍 최대공약수(GCD)를 구하는 방법 '유클리드 호제법'의 개념
 ## 최대공약수(GCD, Greatest Common Divisor)
