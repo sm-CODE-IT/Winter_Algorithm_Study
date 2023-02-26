@@ -13,22 +13,29 @@ public class _16563 {
 
         StringBuilder sb = new StringBuilder();
         StringTokenizer st = new StringTokenizer(br.readLine());
-        int[] nums = new int[N];
-        for (int i=0; i<N; i++) {
-            nums[i] = Integer.parseInt(st.nextToken());
+
+
+        // 소수 배열 구성
+        int max = 5_00_0000;
+        int[] primes = new int[max+1];
+        for (int i=2; i<=max; i++) primes[i] = i;
+
+        for (int i=2; i<=max; i++) {
+            if (primes[i] == 0) continue;
+
+            for (int j=2*i; j<=max; j+=i) {
+                primes[j] = 0;
+            }
         }
 
         for (int j=0; j<N; j++) {
+            int n = Integer.parseInt(st.nextToken());
 
-            while (nums[j] != 1) {
-                for (int i = 2; ; ) {
-                    if (nums[j] == 1) break;
-
-                    if (nums[j] % i == 0) {
+            for (int i=0; n>1; i++) {
+                if (primes[i] != 0) {
+                    while (n % i == 0) {
                         sb.append(i).append(" ");
-                        nums[j] /= i;
-                    } else {
-                        i++;
+                        n /= i;
                     }
                 }
             }
