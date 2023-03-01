@@ -99,7 +99,7 @@ for x in a:
 for x in b:
     str[x]=str2.get(x,0)+1
 
-for i in str1.keys(): #딕셔너리의 키에 접근 가능
+for i in str.keys(): #딕셔너리의 키에 접근 가능
     for i in str2.keys():
         if str[i]!=str2[i]:
             print("No")
@@ -322,7 +322,7 @@ def DFS(x):
     if x==0:
         return
     else:
-       
+
         DFS(x//2)
         print(x%2,end=" ") #스택을 사용하므로 순서를 바꿔주면 거꾸로 출력됨
 
@@ -403,8 +403,8 @@ def DFS(n):
 D(1)에서 시작해서 1을 부분집합으로 사용하는 경우와 아닌 경우로 노드 나누기 -> 3까지
 상태 트리 활용
 '''
-def DFS(V):
-    if v==n+1:
+def DFS(v): #원소의 개수(노드의 개수)
+    if v==n+1: # 종착점이 되었을 때 -> 종료지점이라서 출력.
         for i in range(1,n+1):
             if ch[i]==1:
                 print(i,end=" ")
@@ -452,6 +452,8 @@ total - sum -> 또 다른 부분집합의 합 => 둘이 같냐 아니냐
 '''
 def DFS(L,sum): #L번 인덱스를 부분집합에 포함하겠다, 레벨의 의미도 있음
     #인덱스를 포함하겠다 vs 포함하지 않겠다로 노드를 나눈다
+    if sum>total//2: #내가 만든 부분집합이 토탈//2보다 크면 가지를 뻗을 필요가 없다
+        return
     if L==n:
         if sum==(total-sum):
             print("YES")
@@ -467,7 +469,7 @@ if __name__=="_main_":
     a=list(map(int,input().split()))
     total = sum(a)
     DFS(0,0)
-    print("NO") #프로그램이 돌고 끝나버렸다
+    print("NO") #절반인 경우가 없어서 프로그램이 돌고 끝나버렸다
 
 '''
 시간복잡도 줄이기
