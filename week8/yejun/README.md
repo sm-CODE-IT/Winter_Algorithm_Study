@@ -102,3 +102,35 @@ public static int pow(int a, int n) {
 [https://mygumi.tistory.com/319](https://mygumi.tistory.com/319)
 
 [https://loosie.tistory.com/237](https://loosie.tistory.com/237)
+
+# 📍 이진수의 원리를 이용하여 제곱을 구하는 방법
+
+## 이진수 사용 원리
+
+0001 * 0001 = 0010
+
+0010 * 0010 = 0100
+
+0100 * 0100 = 1000
+
+이진수는 위와 같이 수를 제곱하면 왼쪽으로 한 칸씩 이동하는 성질이 있다. 이를 이용하여 생긴 것이 바로 비트 연산이다. 
+
+A^15를 구한다고 할 때, 15는 이진수로 01111이다. 이를 2로 나누다보면 01111/2=0111…1 → 0111/2=011…1 → 011/2=01…1 → 01/2=0…1로, 나머지를 조합하면 기존 이진수를 얻음을 알 수 있다. 
+
+```java
+public static int pow(a, b) {
+		int n = 1;
+		while (b != 0) {
+				if (b % 2 == 1) {
+						n *= a;
+				}
+				a = a*a;   // 이진수 제곱 연산
+				b /= 2;    // 지수를 2로 나누어 나머지를 구한다. 
+		}
+		return n;
+}
+```
+
+## 참고 자료
+
+[https://velog.io/@apro_xo/Algorithm-거듭제곱을-이진수를-이용하여-해결하기](https://velog.io/@apro_xo/Algorithm-%EA%B1%B0%EB%93%AD%EC%A0%9C%EA%B3%B1%EC%9D%84-%EC%9D%B4%EC%A7%84%EC%88%98%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0)
