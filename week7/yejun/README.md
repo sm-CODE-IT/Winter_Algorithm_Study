@@ -22,7 +22,6 @@
 while (N > 1) {
     for (int i = 2;;) {
         if (N == 1) return;
-
         if (N % i == 0) {
             System.out.println(i);
             N /= i;
